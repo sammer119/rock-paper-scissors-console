@@ -44,7 +44,7 @@ function game() {
     if (playerScore === 3) {
         console.log(`You win! ${playerScore} - ${computerScore}. Congrats you beat a computer`);
     } else if (computerScore === 3) {
-        console.log(`You lose! ${playerScore} - ${computerScore}. Computer wins, suck a bag of dicks!`);
+        console.log(`You lose! ${playerScore} - ${computerScore}. Computer wins, unlucky!`);
     } else {
         game();
     }
